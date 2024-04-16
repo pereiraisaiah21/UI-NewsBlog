@@ -23,7 +23,6 @@
         img {
             width: 100%;
             max-height: 300px;
-            /* Ajuste conforme necessário */
             object-fit: cover;
         }
     }
@@ -34,9 +33,7 @@
 
         img {
             width: 50px;
-            /* Ajuste conforme necessário */
             height: 50px;
-            /* Ajuste conforme necessário */
             object-fit: cover;
             cursor: pointer;
         }
@@ -49,7 +46,6 @@
 
         &.selected {
             border-color: #0e0f58;
-            /* Cor quando selecionado */
         }
     }
 
@@ -92,9 +88,7 @@
         }
     }
 
-    &__ads {
-        /* Adicione estilos conforme necessário para a seção de ads */
-    }
+    &__ads {}
 
     &__image-text {
         position: absolute;

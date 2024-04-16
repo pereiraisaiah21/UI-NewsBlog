@@ -16,7 +16,6 @@
 
     &__bottom {
         border-top: 1px solid rgb(189, 189, 189);
-        // box-shadow: inset 1px 1px 10px red;
     }
 
     &__logo {
@@ -89,7 +88,6 @@
         border: unset;
         height: 100%;
         color: #242424;
-        // background-color: #0e0f58;
         border: 1px solid #242424;
         background-color: unset;
         cursor: pointer;
@@ -114,7 +112,6 @@
         display: flex;
         padding: 1rem 1.2rem;
         gap: 1.5rem;
-
         display: flex;
         flex-direction: row;
         gap: 1.5rem;

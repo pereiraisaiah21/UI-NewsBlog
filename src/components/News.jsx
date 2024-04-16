@@ -16,13 +16,11 @@ const News = () => {
             imageUrl: 'http://placeholder.co/300',
             fullArticleUrl: '#',
         },
-        // Adicione mais notícias conforme necessário
     ]
 
     const breakingNewsLinks = [
         { title: 'Link do Plantão 1', url: '#' },
         { title: 'Link do Plantão 2', url: '#' },
-        // Adicione mais links de plantão conforme necessário
     ]
 
     return (
