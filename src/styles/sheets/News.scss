@@ -1,0 +1,89 @@
+/* Adicione estas regras ao seu CSS */
+
+.News {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    &__latest {
+        width: 70%;
+    }
+
+    &__breaking {
+        width: 30%;
+        padding: 2rem;
+
+        @media (max-width: 768px) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__latest-title,
+    &__breaking-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    &__latest-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__latest-card {
+        display: flex;
+
+        &-left {
+            width: 70%;
+        }
+
+        &-right {
+            width: 30%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        &-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        &-date {
+            color: #555;
+            margin-top: 5px;
+        }
+
+        &-description {
+            margin-top: 10px;
+        }
+
+        &-button {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #0e0f58;
+            font-weight: bold;
+        }
+    }
+
+    &__breaking-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__breaking-link {
+        text-decoration: none;
+        color: #0e0f58;
+        font-weight: bold;
+    }
+}
