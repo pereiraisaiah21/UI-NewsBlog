@@ -59,9 +59,9 @@ const Header = () => {
                                 <PiMagnifyingGlassLight />
                             </button>
                         </div>
-                        <div className="Header__community">
+                        {/* <div className="Header__community">
                             <button className="Header__community-button">Junte-se à Comunidade</button>
-                        </div>
+                        </div> */}
                         <div className="Header__menu-icon" onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
                             ☰
                         </div>

@@ -19,8 +19,9 @@ const News = () => {
     ]
 
     const breakingNewsLinks = [
-        { title: 'Link do Plantão 1', url: '#' },
-        { title: 'Link do Plantão 2', url: '#' },
+        { title: 'Radiotelescópio detecta magnetar com comportamento sem precedentes', url: '#' },
+        { title: 'Concluídos túneis do megaexperimento Dune, que estudará os neutrinos', url: '#' },
+        { title: 'Equipe da Unicamp vence desafio mundial da Nasa', url: '#' },
     ]
 
     return (
@@ -50,7 +51,9 @@ const News = () => {
                 <div className="News__breaking-links">
                     {breakingNewsLinks.map((link, index) => (
                         <a key={index} href={link.url} className="News__breaking-link">
-                            {link.title}
+
+                            #{index + 1} - {link.title}
+
                         </a>
                     ))}
                 </div>
